@@ -7,71 +7,74 @@
     <title>CoffePoint</title>
     <meta name="description" ,
         content="Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <span>CoffePoint</span>
-            <ul>
+            <span class="logo">CoffePoint</span>
+            <ul class="menu">
                 <li><a>Home</a></li>
                 <li><a>Receitas</a></li>
                 <li><a>Novidades</a></li>
                 <li><a>Melhor avaliadas</a></li>
             </ul>
-            <a>Github</a>
+            <a class="github">Github</a>
         </nav>
     </header>
 
     <main>
-        <section>
-            <header>
-                <span>Novidade</span>
-                <h1>Encontre a receita perfeita</h1>
-                <hr>
-                <h2>Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
-            </header>
-            <div>
-                <figure><img src="./assets/hero-banner-1.jpg"></figure>
-                <figure><img src="./assets/hero-banner-2.jpg"></figure>
-                <figure><img src="./assets/hero-banner-3.jpg"></figure>
-                <figure><img src="./assets/hero-banner-4.jpg"></figure>
-                <figure><img src="./assets/hero-banner-5.jpg"></figure>
-                <figure><img src="./assets/hero-banner-6.jpg"></figure>
-                <figure><img src="./assets/hero-banner-7.jpg"></figure>
-                <figure><img src="./assets/hero-banner-8.jpg"></figure>
-                <figure><img src="./assets/hero-banner-9.jpg"></figure>
-                <figure><img src="./assets/hero-banner-10.jpg"></figure>
-                <figure><img src="./assets/hero-banner-11.jpg"></figure>
-                <figure><img src="./assets/hero-banner-12.jpg"></figure>
-            </div>
-        </section>
-
-        <section>
-            <button>
-                <img src="./assets/Button.svg" alt="Button">
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">Novidade</span>
+                    <h1>Encontre a receita perfeita!</h1>
+                    <hr>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor do
+                        mundo!</h2>
+                </header>
+                <div class="hero-img-container">
+                    <figure><img src="./assets/hero-banner-1.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-2.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-3.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-4.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-5.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-6.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-7.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-8.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-9.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-10.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-11.jpg"></figure>
+                    <figure><img src="./assets/hero-banner-12.jpg"></figure>
+                </div>
+            </section>
+        </div>
+        <section class="botao-container">
+            <button type="button">
+                <img src="./assets/chevrons-down.svg" alt="Button">
             </button>
         </section>
 
-        <section>
-            <header>
-                <span>Receitas</span>
-                <h2>Confira as ultimas receitas</h2>
-                <p>Dê uma olhada nas receitas mais amadas!</p>
+        <section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">Receitas</span>
+                <h2 class="receitas-titulo">Confira as ultimas receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
             </header>
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>EM ALTA 🔥</span>
-                            <h3>Cappuccino ☕</h3>
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-cabecalho-detalhes">
+                            <span class="destaque amarelo">EM ALTA 🔥</span>
+                            <h3 class="receita-titulo">Cappuccino ☕</h3>
                         </div>
-                        <p>Extraordinário · 4/4 </p>
+                        <p class="receita-avaliacao">Extraordinário · 4/4 </p>
                     </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
-                    <div>
+                    <p class="receita-descricao">Uma bebida ideal para os amantes de doce e cremosidade. 😍</p>
+                    <div class="receita-autor">
                         <img src="https://avatars.githubusercontent.com/u/70351723?v=4">
-                        <span>Geovanne Lopes</span>
+                        <span class="receita-autor-nome">Geovanne Lopes</span>
                     </div>
                 </div>
             </div>
@@ -79,11 +82,11 @@
     </main>
 
     <footer>
-        <p>Copyright
+        <p class="footer-copy">Copyright
             &lt;CODEFEE /&gt; 2023
         </p>
 
-        <p>Feito com muito café ☕ por Geovanne Lopes</p>
+        <p class="footer-autor">Feito com muito café ☕ por Geovanne Lopes</p>
     </footer>
 </body>
 
